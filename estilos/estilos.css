@@ -1,0 +1,149 @@
+header
+{
+  background-color:yellowgreen;
+  text-align:center;
+  padding:20px;
+}
+
+nav#menu ul
+{
+  display: flex;
+  list-style: none;
+  font-family: 'algerian', 'Arial Narrow', 'Arial', 'sans-serif';
+  margin:0;
+  padding:15px;
+  gap:25px;
+  background-color:#33CAFE;
+  justify-content:center;
+} 
+nav#menu a 
+{
+ background-color: yellow;
+ color: red;
+ font-size: 30px; 
+ display: block ;
+ width:330px;
+ padding: 35px;
+ text-align:center;
+ text-decoration:none;
+ border:4px solid red;
+}
+nav#menu a:hover 
+{
+ background-color:pink;	
+}
+div#contenedor 
+{
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+div#contenedor section 
+{
+background-color:pink;
+float: left;
+width: 80%;
+min-height:650px;
+padding-top:25px;
+padding-bottom:25px;
+}
+
+div#contenedor aside 
+{
+ background-color:yellow;
+ color:blue;
+ float: right;
+ width: 20%;
+ margin-left: 0%;
+ min-height:650px;
+ text-align:center;
+}
+article
+{
+ background-color:green;
+ color:yellow;
+ width: 92%;
+ margin-left: 4%;
+ margin-top:25px;
+ margin-bottom:25px;
+ padding:25px;
+ box-sizing:border-box;
+}
+
+footer
+{
+background-color:#33CAFE;
+color:white;
+text-align:center;
+clear:both;
+padding:10px;
+}
+
+body
+{
+  margin:0;
+  font-family:Arial, sans-serif;
+}
+
+form
+{
+  background-color:white;
+  color:black;
+  padding:25px;
+  margin-top:20px;
+}
+
+label
+{
+  display:block;
+  font-weight:bold;
+  margin-top:10px;
+}
+
+input, select, button
+{
+  width:95%;
+  padding:10px;
+  margin-top:8px;
+  margin-bottom:12px;
+  font-size:16px;
+}
+
+button
+{
+  background-color:yellow;
+  color:red;
+  font-weight:bold;
+  border:2px solid red;
+  cursor:pointer;
+}
+
+table
+{
+  width:100%;
+  background-color:white;
+  color:black;
+  border-collapse:collapse;
+  margin-top:15px;
+}
+
+th, td
+{
+  border:1px solid black;
+  padding:8px;
+  text-align:center;
+}
+
+th
+{
+  background-color:yellow;
+  color:red;
+}
+
+.mensaje
+{
+  background-color:yellow;
+  color:blue;
+  padding:10px;
+  font-weight:bold;
+}
